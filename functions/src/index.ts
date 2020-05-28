@@ -5,6 +5,7 @@ import * as express from 'express';
 import * as bodyParser from "body-parser";
 import * as nodemailer from "nodemailer";
 
+
 admin.initializeApp(functions.config().firebase);
 const db = admin.firestore();
 
